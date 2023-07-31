@@ -1,0 +1,47 @@
+.accor-container {
+  width: 70%;
+  margin: auto;
+}
+
+.column-strip {
+  background-color: #004ea2;
+  color: whitesmoke;
+}
+.wixui-rich-text {
+  width: 600px;
+  margin: auto;
+  padding: 40px 0px;
+}
+
+.qus-form-container {
+  width: 50%;
+  margin: auto;
+  background-color: #004ea2;
+  padding: 20px 40px;
+  color: white;
+  text-align: center;
+}
+.faq-form-label {
+  color: whitesmoke;
+}
+.quote {
+  color: white;
+}
+.img-sec {
+  position: relative;
+}
+.frequent-ask {
+  background-color: rgba(255, 255, 255, 0.702);
+  width: 900px;
+  height: 200px;
+
+  position: absolute;
+  top: 100px;
+  right: 217px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(31, 31, 31);
+}
+.frequent-ask > h1 {
+  font-size: 56px;
+}

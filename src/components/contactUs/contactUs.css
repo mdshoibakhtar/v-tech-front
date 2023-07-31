@@ -1,0 +1,41 @@
+.pb-85-P {
+  padding-top: 60px;
+}
+
+.tpcontact__item {
+  /* background-image: url("../../assets//img/contactUs/contact.jpg"); */
+  /* background-image: url("../../assets/img/footer/footerimg1.jpg"); */
+  background-size: 130% 100%;
+  position: relative;
+  /* color: white; */
+  border: dotted #0053ff 1px;
+}
+.tpcontact__item:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/* .tpcontact__item::before{
+  background-color: ;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+.tpcontact__icon {
+  width: 80px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.tpcontact__icon > img {
+  width: 100%;
+  height: 70px;
+}
+.supportus {
+  padding-left: 0;
+}
+.supportus > li {
+  padding: 10px 0px;
+}

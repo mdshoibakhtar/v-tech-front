@@ -1,0 +1,21 @@
+
+.fram-img{
+  height: 500px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .fram-img{
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .fram-img{
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .fram-img{
+    height: 150px;
+  }
+}

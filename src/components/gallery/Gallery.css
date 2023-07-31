@@ -1,0 +1,49 @@
+.gallery-sec {
+  width: 100%;
+  height: 175px;
+  /* background-image: url("../../assets//img/career/baner_mobilti.jpg"); */
+  background-size: 100% 260%;
+  position: relative;
+  background-position: center;
+  background-image: url(../../assets//img/policy/policy.jpg);
+}
+.gallery-img {
+  height: 280px;
+  width: 100%;
+  margin: 5px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery-img {
+    height: 240px;
+  }
+}
+.elementor-gallery-sec {
+  position: absolute;
+  background-color:#1157a295;
+  opacity: 0.65;
+  width: 100%;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elementor-gallery-sec > h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 55px;
+}
+
+.back-link {
+  position: absolute;
+  right: 46%;
+  bottom: 27%;
+}
+.back-link > ul > li > a {
+  color: white;
+  font-weight: 500;
+}
+.back-link > ul > li > a:hover {
+  color: #004ea2;
+}

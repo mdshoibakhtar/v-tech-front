@@ -1,0 +1,11 @@
+
+.accordion-button{
+  color: #004EA2 !important;
+}
+.accordion-body{
+  background-color: #506e8e;
+  color: white
+}
+.accordion-body >p{
+  color: white;
+}

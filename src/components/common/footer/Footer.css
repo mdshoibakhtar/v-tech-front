@@ -1,0 +1,108 @@
+@media only screen and (max-width: 768px) {
+  .tp-footer-widget {
+    text-align: center;
+  }
+  .social-media-container > ul {
+    width: 30%;
+  }
+  /* .footer-container {
+    background-image: url("../../../assets/img/footer/footer2.png");
+    width: 100%;
+    background-size: 100% 100%;
+  } */
+  .footer-container {
+    background-image: url("../../../assets/img/footer/footer2.png") !important;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .row {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .row {
+    text-align: center;
+  }
+  .social-media-container {
+    left: 0px !important;
+    bottom: 0px !important;
+  }
+}
+
+.footer-container {
+  background-image: url("../../../assets/img/footer/slidernn1.jpg");
+  width: 100%;
+  background-size: 100% 100%;
+}
+.footer-sec {
+  position: relative;
+}
+.footer-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.445);
+  position: absolute;
+}
+.fottrlinks {
+  padding-left: 0;
+}
+
+.footer-sec {
+  /* position: relative; */
+}
+.direct-link-social-medial {
+  position: absolute;
+}
+
+/* ---social---media---active */
+
+
+.social-media-container > ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  width: 50px;
+  border-top: 1px solid #004ea2;
+}
+.social-media-container > ul > li {
+  border-left: 1px solid #004ea2;
+  border-right: 1px solid #004ea2;
+}
+.media-box {
+  padding: 10px;
+  border-bottom: 1px solid #004ea2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-link {
+  /* width: 100%; */
+  font-size: 20px;
+  color: #004ea2;
+}
+.media-box:hover {
+  background-color: #004ea2;
+  color: #004ea2;
+  cursor: pointer;
+}
+.media-box:hover .social-media-link {
+  color: white;
+}
+.tp-footer-top {
+  position: relative;
+}
+
+.social-media-container {
+ position: fixed;
+ top: 35%;
+ right: 0 !important;
+ 
+ z-index: 99;
+}
+.soc-media-list{
+  background-color: rgb(114, 150, 250);
+}

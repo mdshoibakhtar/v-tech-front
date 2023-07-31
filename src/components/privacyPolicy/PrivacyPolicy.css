@@ -1,0 +1,9 @@
+.policy-sec {
+  width: 100%;
+  height: 175px;
+  /* background-image: url("../../assets//img/career/baner_mobilti.jpg"); */
+  background-size: 100% 260%;
+  position: relative;
+  background-position: center;
+  background-image: url(../../assets//img/policy/policy.jpg);
+}

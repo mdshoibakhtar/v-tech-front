@@ -1,0 +1,49 @@
+.elementor-top-sec {
+  width: 100%;
+  height: 175px;
+  background-image: url("../../assets//img/career/baner_mobilti.jpg");
+  background-size: 100% 250%;
+  position: relative;
+  background-position: center;
+}
+.elementor-sec {
+  position: absolute;
+  background-color: #004ea27d;
+  opacity: 0.65;
+  width: 100%;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elementor-sec > h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 55px;
+}
+.career-slider {
+  height: 400px;
+}
+
+.img-sec {
+  position: relative;
+  overflow: hidden;
+}
+.img-sec:hover .group-disc {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+.img-sec:hover::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 40, 40, 0.373);
+  content: "";
+  cursor: pointer;
+}
+.career-heading {
+  margin-bottom: 60px;
+}
